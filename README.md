@@ -4,12 +4,12 @@
 https://github.com/user-attachments/assets/cc70c670-2491-4486-871e-f87219344e5d
 
 
-Databased's Missing Semester sessions, inspired from MIT OCW [Missing Semester](https://missing.csail.mit.edu) course, where we learn about basics every developer should know like using command-line, text editors, use fancy features of version control systems, and much more!
-
-We like to call it each session with a fancy session code(based on topics) - DBD001, DBD002, etc.
+Databased's _Missing Semester_ is a series of sessions inspired by MIT's original [Missing Semester](https://missing.csail.mit.edu) but with our own flavour, to introduce undergraduate students with basic tools that they must know as developers but which are never covered in traditional coursework.
 
 ## Sessions
 
-- DBD001 - Introduction to Linux and Shells
-- DBD002 - Introduction to Debuggers and Testing
-- DBD003 - Introduction to Git
+- DBD:MS001 - Introduction to Linux and Shells, taken by _Keval Pithadiya_.
+- DBD:MS002 - Introduction to Debuggers and Testing, taken by _Anirudh Gupta_.
+- DBD:MS003 - Introduction to Git, taken by _Mrigank Pawagi_.
+
+
