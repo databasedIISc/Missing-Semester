@@ -8,6 +8,8 @@ Databased's _Missing Semester_ is a series of sessions inspired by MIT's origina
 
 ## Sessions
 
-- DBD001 - Introduction to Linux and Shells
-- DBD002 - Introduction to Debuggers and Testing
-- DBD003 - Introduction to Git
+- DBD:MS001 - Introduction to Linux and Shells, taken by _Keval Pithadiya_.
+- DBD:MS002 - Introduction to Debuggers and Testing, taken by _Anirudh Gupta_.
+- DBD:MS003 - Introduction to Git, taken by _Mrigank Pawagi_.
+
+
