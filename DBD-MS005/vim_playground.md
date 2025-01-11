@@ -2,147 +2,170 @@
 
 Welcome to the Vim Learning Playground! This file is your space to practice Vim commands, motions, and editing skills. Follow the instructions, play around with the text, and learn at your own pace.
 
-## Section 1: Basic Motions
+## Random Piece of Code
 
-### Practice Sentences:
-
-1. The quick brown fox jumps over the lazy dog.
-2. Vim is an amazing text editor for power users.
-3. Practice makes perfect, so keep editing!
-4. Learning Vim can improve your productivity tenfold.
-5. Navigate this text with "w", "e", "b", and "F", "W" commands.
-
-#### Tasks:
-
-- Use `w` to jump word by word.
-- Use `e` to jump to the end of each word.
-- Use `b` to jump backward by word.
-- Use `ge` to jump backward to the end of words.
-
-## Section 2: Searching and Replacing
-
-### Practice Paragraph:
-
-```
-Vim is not just a text editor; it is a way of life. Many programmers love Vim for its speed, flexibility, and customizability. Some people find Vim challenging at first, but with practice, it becomes second nature. Vim motions, commands, and plugins open up a world of possibilities for text editing. If you master Vim, you will never look back!
-```
-
-#### Tasks:
-
-- Search for the word "Vim" using `/Vim`.
-- Replace the word "Vim" with "Emacs" using `:%s/Vim/Emacs/g`.
-- Search for all instances of "text".
-
-## Section 3: Code Navigation
-
-### Practice Code:
+Today we will make a special recipe for Pigs called "poo-pie"!
 
 ```python
-# Sample Python Code
+def make_poo_pie(ingredients):
+    pie = []
+    for ingredient in ingredients:
+        if ingredient == "poo":
+            pie.append("poo")
+        else:
+            pie.append("not poo")
+    return pie
 
-def greet(name):
-    print(f"Hello, {name}!")
+def bake_poo_pie(pie):
+    baked_pie = []
+    for piece in pie:
+        if piece == "poo":
+            baked_pie.append("baked poo")
+        else:
+            baked_pie.append("baked not poo")
+    return baked_pie
 
-for i in range(5):
-    greet("World")
+def decorate_poo_pie(baked_pie):
+    decorated_pie = []
+    for piece in baked_pie:
+        if piece == "baked poo":
+            decorated_pie.append("decorated baked poo")
+        else:
+            decorated_pie.append("decorated baked not poo")
+    return decorated_pie
+
+def serve_poo_pie(decorated_pie):
+    for piece in decorated_pie:
+        if piece == "decorated baked poo":
+            print("Serving a piece of decorated baked poo")
+        else:
+            print("Serving a piece of decorated baked not poo")
+
+ingredients = [
+    "flour",
+    "sugar",
+    "poo",
+    "eggs",
+    "milk",
+    "butter",
+    "poo"
+]
+pie = make_poo_pie(ingredients)
+baked_pie = bake_poo_pie(pie)
+decorated_pie = decorate_poo_pie(baked_pie)
+serve_poo_pie(decorated_pie)
 ```
 
-#### Tasks:
-
-- Use `gg` to jump to the top of the file.
-- Use `G` to jump to the bottom.
-- Use `}` and `{` to navigate between code blocks.
-- Search for the word "greet" and jump through matches.
-
-## Section 4: Editing Text
-
-### Practice Editing:
+## Random piece of ASCII Art
 
 ```
-Mistkaes are common in txt editting. Correcting them is a part of learning Vim.
+        1          _________________________
+       11         |                         |
+   111111         |   ALWAYS BE YOURSELF    |
+ 11_O-111         |   UNLESS YOU CAN BE A   |
+1111111111        |   |  |   /\ |\/| /\     |
+ 11__11111      --|   |__|__/--\|  |/--\    |
+ 1___1111    --/  |_________________________|
+ 1___1111  -/
+ 1__1111
+ 1__1111
+ 1_11111       11111
+ 1_1111       1111111
+ 1_111111    111111111
+ 1__11111111111111111111
+  1_111111111111111111111
+   11111111111111111111111
+     111111111111111111111
+      1111111111111111111
+      111111     1111111
+       1111       111111
+       111         11111
+       111          111_1
+       111          111_1
+       111          11_1
+       111          1111
+      11           111
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ```
 
-#### Tasks:
+## Random piece of garbage
 
-- Correct "Mistkaes" to "Mistakes".
-- Correct "txt" to "text".
-- Correct "editting" to "editing".
+```c
+#include <stdio.h>
+#include <stdlib.h>
 
-## Section 5: Visual Mode Practice
+void do_nothing(int *array, int size) {
+    for (int i = 0; i < size; i++) {
+        array[i] = array[i] * 2;
+        array[i] = array[i] / 2;
+    }
+}
 
-### Practice:
+void print_random_numbers(int count) {
+    for (int i = 0; i < count; i++) {
+        printf("%d\n", rand() % 100);
+    }
+}
 
-```
-Vim is fun.
-Editing is powerful.
-Commands are precise.
-```
+void reverse_array(int *array, int size) {
+    for (int i = 0; i < size / 2; i++) {
+        int temp = array[i];
+        array[i] = array[size - i - 1];
+        array[size - i - 1] = temp;
+    }
+}
 
-#### Tasks:
+void fill_with_zeros(int *array, int size) {
+    for (int i = 0; i < size; i++) {
+        array[i] = 0;
+    }
+}
 
-- Use `v` to select text and delete it.
-- Use `V` to select entire lines.
-- Use `Ctrl-v` to select columns and edit them.
+int main() {
+    int array[10];
+    for (int i = 0; i < 10; i++) {
+        array[i] = i;
+    }
 
-## Section 6: ASCII Art Diagrams
+    do_nothing(array, 10);
+    print_random_numbers(5);
+    reverse_array(array, 10);
+    fill_with_zeros(array, 10);
 
-### Diagram 1: Tree
-
-```
-       *
-      /|\
-     /*|O\
-    /*/|\*\
-   /X/O|*\X\
-  /*/X/|\X\*\
- /O/*/X|O\X\X\
-       |X|
-       |X|
-```
-
-#### Tasks:
-
-- Use `j` and `k` to navigate up and down the tree.
-- Use `0` and `^` to jump to the start of lines.
-
-### Diagram 2: House
-
-```
-      /\
-     /  \
-    /____\
-    |    |
-    | [] |
-    |____|
+    return 0;
+}
 ```
 
-#### Tasks:
-
-- Use `fx` and `tx` to move to specific characters in the house diagram.
-- Copy and paste the house to another location.
-
-## Section 7: Advanced Tasks
-
-### Challenge Text:
+## Random piece of shit
 
 ```
-The rain in SPAIN stays mainly in the plain.
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⡾⠟⠋⢩⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⠟⠁⠀⠀⠀⠸⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠟⠁⠀⠀⠀⠀⠀⠀⠙⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⠃⠀⠀⠀⠀⠀⠐⠷⠤⠤⠤⠤⣿⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⡾⠟⠛⢦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢰⡿⠉⠀⠀⠀⠀⠈⠓⠦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⣀⡤⠤⠤⢄⡀⠀⠈⠙⠒⠦⣤⣀⣠⠖⠋⠉⠓⠦⣀⣸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣀⣿⣧⡞⠁⢀⣀⡀⠀⠙⣆⠀⠀⠀⠀⠀⡼⠁⠀⣠⣤⡀⠀⠙⡟⠿⢶⣤⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣠⡾⠟⠁⡼⠀⢠⣿⣿⣿⣦⠀⠘⡆⠀⠀⠀⢰⠇⠀⣼⣿⣿⣿⡄⠀⢹⠀⠀⠙⢿⣄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣼⡟⠀⠀⠀⡇⠀⢸⣿⣿⣿⣿⠆⠀⡧⠀⠀⠀⠸⡆⠀⣿⣿⣿⣿⡇⠀⢸⠇⠀⠀⠈⣿⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣿⠀⠀⠀⠀⢻⡀⠘⣿⣿⣿⡿⠀⢀⠟⠦⢤⣀⡀⢳⠀⠘⢿⣿⠟⠀⠀⡼⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢿⡆⠀⠀⠀⠀⢳⡀⠈⠉⠉⠀⢀⡞⠀⠀⠀⠈⠉⠙⠳⣄⠀⠀⠀⣠⣾⣁⣀⣀⣀⣠⣿⣤⣀⠀⠀⠀⠀
+⠀⠀⠀⣀⣼⣿⡄⠀⠀⠀⠀⠙⠲⠤⠤⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⡉⡉⠁⠀⠀⠀⠀⠀⠀⠀⠉⠛⢷⣦⠀⠀
+⠀⣠⣾⠟⠉⠀⠙⢦⡀⠀⠀⠀⠀⣴⠒⠒⠲⠤⠤⠤⠴⠖⠒⠒⠒⠊⠉⢉⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣷⠀
+⢰⡟⠁⠀⠀⠀⠀⠀⠉⠳⢤⣀⠀⠈⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡇
+⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠲⢤⣀⡙⠲⠤⠤⣤⣤⠤⠴⠚⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⡇
+⢻⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠓⠲⠤⢤⣄⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡿⠀
+⠀⠙⢷⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣠⣭⣽⣿⠶⠶⠶⣶⣤⣤⣤⣤⣤⣤⣤⣶⠿⠛⠀⠀
+⠀⠀⠀⢉⣙⡛⠿⠷⠶⢶⣶⣶⣶⡶⠶⠶⠾⠿⠟⠛⠛⠋⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠁⠀⠀⠀⠀⠀
+
 ```
 
-#### Tasks:
+## Random piece of Vim Memes link
 
-- Capitalize the word "rain" using `gU`.
-- Lowercase "SPAIN" using `gu`.
-- Swap "rain" and "plain" using text objects and motions.
-
-## Section 8: Practice Commands
-
-### Quick List:
-
-- `dd` to delete a line.
-- `yy` to copy a line.
-- `p` to paste.
-- `u` to undo.
-- `Ctrl-r` to redo.
-
-Have fun practicing Vim! Use this playground to explore, experiment, and become proficient in one of the most powerful text editors available.
+- [vim-memes](https://github.com/kuator/Vim-memes)
+- [r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/comments/9lksci/vim_vs_emacs/), more [here](https://www.reddit.com/r/ProgrammerHumor/)

@@ -145,7 +145,7 @@ a is for all
 - `y`: Yank (copy) a word in Visual Mode
 - `p`: Paste
 
-<!-- pause-->
+<!-- end_slide-->
 
 ## Cursor Movement
 
@@ -162,6 +162,14 @@ a is for all
 - `l`: Move cursor right
 - `%`: Move to the matching parenthesis
 
+<!-- pause-->
+
+## Repeating and Searching
+
+<!-- pause-->
+
+- `n`: Repeat the last search
+- `N`: Repeat the last search in the opposite direction
 <!-- end_slide-->
 
 ## Editing Text
@@ -177,12 +185,6 @@ a is for all
 - `O`: Open a new line above the current line
 
 <!-- pause-->
-
-## Repeating and Searching
-
-<!-- pause-->
-
-- `n`: Repeat the last search
 
 ## Using Numbers
 
@@ -304,17 +306,29 @@ Vim has a set of `registers` that can be used to store text. Registers can be us
 - **Plugins**: Extend Vim's functionality using plugins like Pathogen, Vundle, or Vim-Plug
 - **Themes**: Customize the appearance of Vim using color schemes
 
-<!-- pause-->
+<!-- end_slide-->
 
 ## NEOVIM
+
+<!-- pause-->
 
 ```
 THE GOATED VIM
 ```
 
-```
-In My Opinions
-```
+(In My Opinions)
+
+<!-- pause-->
+
+`Neovim` is a fork of Vim that aims to improve upon Vim's extensibility and maintainability. Neovim is compatible with Vim, but it also introduces new features and improvements.
+
+<!-- pause-->
+
+- **LSP**: Language Server Protocol
+- **Terminal**
+- **File Explorer**
+- **Plugin Manager**
+- Easily Configurable with Lua
 
 <!-- end_slide-->
 
